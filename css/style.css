@@ -1,84 +1,184 @@
-.nav-container {
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E7E9FC
-    color: white;
-   padding: 1px;   
-}
-.navbar {
-    display: flex;
-    
-    
-    
-    
-}
-.navbar a {
-    color: #2E2F42;
-    text-decoration: none;
-    padding-top: 24px;
-    padding-left: 156px;
-}
-.navbar-container ul {
-justify-content: space-between;
-display: flex;
-align-items: center;
-color: #2E2F42;
-}
-.navbar li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    padding-left: 347px;
-    padding-top: 24px;
-    gap: 40px;
-}
-.first-section {
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 400;
-    padding-top: 72px;
-}
-.first-section .button {
-    background-color: #4D5AE5;
-    width: Hug (169px);
-    height: Hug (56px);
-    padding: 16px, 32px, 16px, 32px;
-    
-    gap: 10px;
-    radius: 4px;
-}
-.first-section h1 {
+:root {
+    --iris: #4d5ae5;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: %2;
-    align-items: center;
-    font-family: "Roboto",sans-serif;
-    width: 496px;
-    height: 120px;
-    padding-top: 260px;
-    padding-left: 472px;
-}
-.second-section {
-    width: 1128px;
-height: 104px;
-top: 120px;
-left: 120px;
-
-}
-.second-section .list-header {
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .logotext {
+    color: #2e2f42;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .nav-item .link {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: %2;
-    font-family: "Roboto",sans-serif;
-    
-}
-
-.second-section .list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  .nav-contact .link {
     font-weight: 400;
     font-size: 16px;
-    font-family: "Roboto",sans-serif;
-    line-height: 24px;
-    letter-spacing: %2;
-}
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+  .link:hover {
+    color: #404bbf;
+  }
+  
+  .link:focus {
+    color: #404bbf;
+  }
+  
+  .contacts {
+    font-style: normal;
+  }
+  
+  .first-section {
+    background-color: #2e2f42;
+  }
+  
+  .header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+  
+  .button {
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #404bbf;
+  }
+  
+  .button:focus {
+    background-color: #404bbf;
+  }
+  
+  .list-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  .list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+  .third-header,
+  .fourth-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  
+  .fourth-section {
+    background-color: #F4F4FD;
+  }
+  
+  .list .list-item {
+    background-color: #fff;
+  }
+  
+  .footer {
+    background-color: #2e2f42;
+  }
+  
+  .logo-footer {
+    color: #f4f4fd;
+  }
+  
+  .logo-footer-text {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+  }
+  
+  .btn-menu {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #f4f4fd;
+    cursor: pointer;
+  }
+  
+  .btn-menu:hover {
+    color: #ffffff;
+    background-color: #404bbf;
+  }
+  
+  .btn-menu:focus {
+    color: #ffffff;
+    background-color: #404bbf;
+  }
+  
+  .list .list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  .list .list-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar li  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  

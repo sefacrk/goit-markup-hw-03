@@ -20,19 +20,22 @@
    
     <header>
       <div class="nav-container">
-        <nav class="navbar">
+        <nav class="navbar-container">
           <a class="logo link" href="./index.html"
             >Web<span class="logotext">Studio</span></a
           >
-          <ul class="list">
-            <li class="nav-item">
-              <a class="link" href="./index.html">Studio</a>
-            </li>
-            <li class="nav-item">
-              <a class="link" href="">Portfolio</a>
-            </li>
-            <li class="nav-item"><a class="link" href="">Contacts</a></li>
-          </ul>
+          <div class="nav-content">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="link" href="./index.html">Studio</a>
+              </li>
+              <li class="nav-item">
+                <a class="link" href="">Portfolio</a>
+              </li>
+              <li class="nav-item"><a class="link" href="">Contacts</a></li>
+            </ul>
+          </div>
+          
         </nav>
         <address class="contacts">
           <ul class="list">
@@ -61,7 +64,10 @@
       </section>
 
       <section class="second-section">
-        <div class="list">
+        <div class="list-container">
+          <h2 class=".visually-hidden">
+           List
+          </h2>
           <ul>
             <li>
               <h3 class="list-header">Strategy</h3>
@@ -102,134 +108,149 @@
 
      
       <section class="third-section">
-        <h2 class="third-header">Our Team</h2>
+        <div class="team-container">
+          <h2 class="third-header">Our Team</h2>
 
-        <ul class="team-list">
-          <li class="list-item">
-            <img
-              src="./images/team-1.jpg"
-              width="360"
-              alt="man-with-laptop"
-            />
-            <h3 class="list-header">Mark Guerrero</h3>
-            <p class="list-text">Product Designer</p>
-          </li>
-
-          <li class="list-item">
-            <img src="./images/team-2.jpg" width="360" alt="smiling-man" />
-            <h3 class="list-header">Tom Ford</h3>
-            <p class="list-text">Frontend Developer</p>
-          </li>
-
-          <li class="list-item">
-            <img
-              src="./images/team-3.jpg"
-              width="360"
-              alt="girl-pink-shirt"
-            />
-            <h3 class="list-header">Camila Garcia</h3>
-            <p class="list-text">Marketing</p>
-          </li>
-
-          <li class="list-item">
-            <img
-              src="./images/team-4.jpg"
-              width="360"
-              alt="man-gray-shirt"
-            />
-            <h3 class="list-header">Daniel Wilson</h3>
-            <p class="list-text">UI Designer</p>
-          </li>
-        </ul>
-      </section>
-      <section class="fourth-section">
-        <h2 class="fourth-header">Our Portfolio</h2>
-
-  <div class="port-up">
-    <ul>
-      <li>
-        <img src="./images/port-1.jpg" alt="Bank-App" width="360" />
-        <div>
-          <h3 class="list-title">Banking App</h3>
-        </div>
-        <div>
-          <p class="list-desc">App</p>
-        </div>
-        
-      </li>
-
-      <li>
-        <img
-        src="./images/port-2.jpg" alt="kare-kod" width="360" />
-      <div>
-        <h3 class="list-title" >Cashless Payment</h3>
-      </div>
-       <div>
-        <p class="list-desc">Marketing</p>
-       </div>
-      
-      </li>
-
-      <li>
-        <img
-        src="./images/port-3.jpg" alt="laptop-phone" width="360" />
-      <div>
-        <h3 class="list-title">Meditation App</h3>
-      </div>
-        
-      <div>
-        <p class="list-desc">App</p>
-      </div>
-        
-      </li>
-
-      
-     
-    </ul>
-  </div>
-        
-        <div class="port-down">
-          <ul>
-            <li>
+          <ul class="team-list">
+            <li class="list-item">
               <img
-              src="./images/port-4.jpg" alt="driver" width="360" />
-            <div>
-              <h3 class="list-title">Taxi Service</h3>
-            </div>
-              <div>
-                <p class="list-desc">Marketing</p>
+                src="./images/team-1.jpg"
+                width="360"
+                alt="man-with-laptop"
+              />
+              <div class="team-box">
+                <h3 class="list-header">Mark Guerrero</h3>
+                <p class="list-text">Product Designer</p>
               </div>
-           
             </li>
   
-            <li>
+            <li class="list-item">
+              <img src="./images/team-2.jpg" width="360" alt="smiling-man" />
+              <div class="team-box">
+                <h3 class="list-header">Tom Ford</h3>
+              <p class="list-text">Frontend Developer</p>
+              </div>
+              
+            </li>
+  
+            <li class="list-item">
               <img
-                  src="./images/port-5.jpg" alt="wallpaper" width="360" />
-                <div>
-                  <h3 class="list-title">Screen Illustrations</h3>
-                </div>
-                  <div>
-                    <p class="list-desc">Design</p>
-                  </div>
-                
+                src="./images/team-3.jpg"
+                width="360"
+                alt="girl-pink-shirt"
+              />
+              <div class="team-box">
+                <h3 class="list-header">Camila Garcia</h3>
+                <p class="list-text">Marketing</p>
+              </div>
+              
             </li>
   
-            <li>
+            <li class="list-item">
               <img
-              src="./images/port-6.jpg" alt="smile-girl" width="360" />
-            
-            <div>
-              <h3 class="list-title">Online Courses</h3>
-            </div> 
-            <div>
-              <p class="list-desc">Marketing</p>
-            </div> 
-            
+                src="./images/team-4.jpg"
+                width="360"
+                alt="man-gray-shirt"
+              />
+              <div class="team-box">
+                <h3 class="list-header">Daniel Wilson</h3>
+                <p class="list-text">UI Designer</p>
+              </div>
+              
             </li>
-  
           </ul>
         </div>
-       
+        
+      </section>
+      <section class="fourth-section">
+        
+        <div class="port-container">
+          <h2 class="fourth-header">Our Portfolio</h2>
+          <div class="port-up">
+            <ul>
+              <li>
+                <img src="./images/port-1.jpg" alt="Bank-App" width="360" />
+                <div>
+                  <h3 class="list-title">Banking App</h3>
+                </div>
+                <div>
+                  <p class="list-desc">App</p>
+                </div>
+                
+              </li>
+        
+              <li>
+                <img
+                src="./images/port-2.jpg" alt="kare-kod" width="360" />
+              <div>
+                <h3 class="list-title" >Cashless Payment</h3>
+              </div>
+               <div>
+                <p class="list-desc">Marketing</p>
+               </div>
+              
+              </li>
+        
+              <li>
+                <img
+                src="./images/port-3.jpg" alt="laptop-phone" width="360" />
+              <div>
+                <h3 class="list-title">Meditation App</h3>
+              </div>
+                
+              <div>
+                <p class="list-desc">App</p>
+              </div>
+                
+              </li>
+            </ul>
+          </div>
+                
+                <div class="port-down">
+                  <ul>
+                    <li>
+                      <img
+                      src="./images/port-4.jpg" alt="driver" width="360" />
+                    <div>
+                      <h3 class="list-title">Taxi Service</h3>
+                    </div>
+                      <div>
+                        <p class="list-desc">Marketing</p>
+                      </div>
+                   
+                    </li>
+          
+                    <li>
+                      <img
+                          src="./images/port-5.jpg" alt="wallpaper" width="360" />
+                        <div>
+                          <h3 class="list-title">Screen Illustrations</h3>
+                        </div>
+                          <div>
+                            <p class="list-desc">Design</p>
+                          </div>
+                        
+                    </li>
+          
+                    <li>
+                      <img
+                      src="./images/port-6.jpg" alt="smile-girl" width="360" />
+                    
+                    <div>
+                      <h3 class="list-title">Online Courses</h3>
+                    </div> 
+                    <div>
+                      <p class="list-desc">Marketing</p>
+                    </div> 
+                    
+                    </li>
+          
+                  </ul>
+                </div>
+               
+        </div>
+
+  
       </section>
 
      
